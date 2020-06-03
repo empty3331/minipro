@@ -35,7 +35,7 @@ public class PhoneRepository {
 
 			Person person = new Person(splitInfo[0], splitInfo[1], splitInfo[2]);
 			pList.add(person);
-			pList = getList();
+			
 		}
 		br.close();
 		return pList;

@@ -3,7 +3,6 @@ package com.javaex.ex03;
 import java.util.List;
 import java.util.Scanner;
 
-import com.javaex.ex02.Person;
 
 //화면과 관련된 기능을 담당합니다.
 
@@ -36,6 +35,10 @@ public class PhoneView {
 	// 1.리스트 : 데이터를 받아 리스트를 출력하는 메소드
 	public void showList(List<Person> phoneList) {
 		System.out.println("<1.리스트>");
+		for (Person p : phoneList) {
+			int count = phoneList.indexOf(p) + 1;
+			System.out.print(count + ". ");
+			p.showInfo();}
 
 	}
 

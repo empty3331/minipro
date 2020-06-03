@@ -4,7 +4,7 @@ import java.util.List;
 
 public class PhoneApp {
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 
 		/*
 		PhoneView 생성
